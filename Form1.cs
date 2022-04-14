@@ -50,9 +50,6 @@ namespace ImageProcessingProject
         {
 
         }
-
-
-
         private void button2_Click(object sender, EventArgs e)
         {
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -113,11 +110,6 @@ namespace ImageProcessingProject
                 case "parlaklik":
                     gelen_resim = islemler.parlaklik((Bitmap)asil_resim, trackBar1.Value);
                     break;
-
-
-
-
-
             }
             resultImage.Image = gelen_resim;
 
@@ -125,18 +117,12 @@ namespace ImageProcessingProject
 
         private void button6_Click(PictureBox picBox, TextBox txtBox)
         {
-
-
-        }
-
-        
+        }   
         private void button5_Click(object sender, EventArgs e, ComboBox cbRGBComponents)
         {
            // pictureBox3.Image = cbRGBComponents(pictureBox1, textBox1);
 
         }
-
-
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -144,19 +130,10 @@ namespace ImageProcessingProject
             islemler.negative((Bitmap)pictureBox1.Image);
             resultImage.Image = gelen_resim;
         }
-
         private void groupBox1_Enter_1(object sender, EventArgs e)
         {
 
         }
-
-
-
-
-
-      
-
-
         private void trackBar1_ValueChanged(object sender, EventArgs e)
         {
             label2.Text = trackBar1.Value.ToString();
@@ -184,17 +161,6 @@ namespace ImageProcessingProject
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
         private void cbArtificialImages_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -205,20 +171,7 @@ namespace ImageProcessingProject
 
         }
 
-       
-
-
-
-
-
-
-
-
-
-
-
-        
-
+   
        private void btnRGBComponents_Click(object sender, EventArgs e)
         {
 
@@ -256,12 +209,8 @@ namespace ImageProcessingProject
         }
 
         private void ccbRGBComponents_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
-
-                
-        }
+        {            
+       }
 
         private void ccbArtificialImages_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -284,10 +233,6 @@ namespace ImageProcessingProject
         {
 
         }
-
-
-        
-
         private void groupBox6_Enter(object sender, EventArgs e)
         {
 
@@ -640,28 +585,5 @@ namespace ImageProcessingProject
         }
     }
 }
-
-
-    
-
-
-
-            
-        
-    
-
-        
-
-        
- 
-
-
-
-       
-           
-
-
-
-
 
 
