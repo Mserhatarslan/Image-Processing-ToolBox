@@ -5,8 +5,10 @@ This project will be developed day by day for tracking image processing lesson's
 Image processing contents that the toolbox will have :
 
 Color to Grayscale ✔️
+
 Arithmetic Operators ✔️
 Thresholding ✔️
+
 Logic Operators ✔️
 RGB Components ✔️
 Brightness ✔️
