@@ -1,6 +1,6 @@
 # Image-Processing-Tool-Box
 
-This project will be developed day by day for tracking image processing lesson's learn and implementing. Image processing contents that the toolbox will have :
+This project will be developed day by day for tracking image processing lesson's learn and implementing. Theoretical explanations of the methods to be found in image processing will also be added. Image processing contents that the toolbox will have :
 
 Color to Grayscale ✔️
 
@@ -29,3 +29,5 @@ Motion Detection
 Negative ✔️
 
 Pull the color of the pixel value where the cursor is located ✔️
+
+
