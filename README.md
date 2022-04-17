@@ -20,7 +20,7 @@ Digital Filters
 
 Otsu Thresholding and CCL
 
-Point Operators
+Point Operators ✔️
 
 Geometric Operators
 
